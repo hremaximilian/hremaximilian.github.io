@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>關於 | 玄岩齋閒話</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://hremaximilian.github.io/favicon.ico?v=1677913309593">
+<link rel="stylesheet" href="https://hremaximilian.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="夢得所謂「斯是陋室，惟吾德馨」者，自其有陋室而謂也，固不致黜落而白衣者如此。今既時移勢易，寒士欲有一廬以爲蝸居亦不可得，遑論書齋。所聊以自慰者，野馬虛無飄渺間，雙鯉尺素，管錐志林，盡在於此，以爲書齋，無傷大雅。故瑣記閒話於此，供知己者引以爲..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://hremaximilian.github.io">
+        <img src="https://hremaximilian.github.io/images/avatar.png?v=1677913309593" class="site-logo">
+        <h1 class="site-title">玄岩齋閒話</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/post/about" class="site-nav">
+            經
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            史
+          </a>
+        
+      
+        
+          <a href="/" class="site-nav">
+            子
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            集
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      齊東野語，姑妄聽之
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hremaximilian.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">關於</h2>
+            <div class="post-date">16th Sep 2022</div>
+            
+            <div class="post-content" v-pre>
+              <p>夢得所謂「斯是陋室，惟吾德馨」者，自其有陋室而謂也，固不致黜落而白衣者如此。今既時移勢易，寒士欲有一廬以爲蝸居亦不可得，遑論書齋。所聊以自慰者，野馬虛無飄渺間，雙鯉尺素，管錐志林，盡在於此，以爲書齋，無傷大雅。故瑣記閒話於此，供知己者引以爲三徑。是爲記。</p>
+<p>玄岩 壬寅年八月二十一日</p>
+
+            </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'b16d29605d866ea22068',
+        clientSecret: '09067d32f36116e46c8666b5fff66ae8628e491b',
+        repo: 'gitalk-repo',
+        owner: 'hremaximilian',
+        admin: ['hremaximilian'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
