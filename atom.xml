@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hremaximilian.github.io</id>
+    <title>玄岩齋閑話</title>
+    <updated>2026-03-18T13:44:09.769Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hremaximilian.github.io"/>
+    <link rel="self" href="https://hremaximilian.github.io/atom.xml"/>
+    <subtitle>守國無胡亥，傳書有伏生</subtitle>
+    <logo>https://hremaximilian.github.io/images/avatar.png</logo>
+    <icon>https://hremaximilian.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2026, 玄岩齋閑話</rights>
+    <entry>
+        <title type="html"><![CDATA[晚行]]></title>
+        <id>https://hremaximilian.github.io/post/wan-xing/</id>
+        <link href="https://hremaximilian.github.io/post/wan-xing/">
+        </link>
+        <updated>2026-03-18T13:20:59.000Z</updated>
+        <content type="html"><![CDATA[<p>春澤多芳草，晚風催露滋。<br>
+雲遊初暮處，日落欲晴時。<br>
+賦韻隨衣薄，行人逐景遲。<br>
+匆匆未驚鳥，久矣不相疑。</p>
+]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>晚行 | 玄岩齋閑話</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://hremaximilian.github.io/favicon.ico?v=1773841446893">
+<link rel="stylesheet" href="https://hremaximilian.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="春澤多芳草，晚風催露滋。
+雲遊初暮處，日落欲晴時。
+賦韻隨衣薄，行人逐景遲。
+匆匆未驚鳥，久矣不相疑。
+" />
+    <meta name="keywords" content="诗歌,五律" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://hremaximilian.github.io">
+        <img src="https://hremaximilian.github.io/images/avatar.png?v=1773841446893" class="site-logo">
+        <h1 class="site-title">玄岩齋閑話</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/post/about" class="site-nav">
+            經
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            史
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            子
+          </a>
+        
+      
+        
+          <a href="/" class="site-nav">
+            集
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      守國無胡亥，傳書有伏生
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hremaximilian.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">晚行</h2>
+            <div class="post-date">2026-03-18</div>
+            
+            <div class="post-content" v-pre>
+              <p>春澤多芳草，晚風催露滋。<br>
+雲遊初暮處，日落欲晴時。<br>
+賦韻隨衣薄，行人逐景遲。<br>
+匆匆未驚鳥，久矣不相疑。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://hremaximilian.github.io/tag/rBtZYUpzmo/" class="tag">
+                    诗歌
+                  </a>
+                
+                  <a href="https://hremaximilian.github.io/tag/ymhhMe7fWy/" class="tag">
+                    五律
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'Ov23liarMnayk88Yxcuj',
+        clientSecret: '381f3547e0597c0ce1b2a0cd57ab8799c84807fb',
+        repo: 'gitalk-repo',
+        owner: 'hremaximilian',
+        admin: ['hremaximilian'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
